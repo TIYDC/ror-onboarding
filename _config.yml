@@ -1,11 +1,12 @@
 title: Backend Engineering Onboarding | The Iron Yard - Washington DC
 project_name: Backend Engineering
+class_logo: img/rails.png
 description: >
   The Iron Yard - Washington DC
 repository_url: https://github.com/tiy-dc-ror-2016-feb/onboarding
 repository_shorthand: tiy-dc-ror-2016-feb/onboarding
 class_github_org: https://github.com/tiy-dc-ror-2016-feb
-baseurl: /onboarding
+baseurl: ""
 instructor_name: Russell Osborne
 instructor_email: russell@theironyard.com
 instructor_url: https://github.com/rposborne
