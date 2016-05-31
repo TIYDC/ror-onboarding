@@ -6,7 +6,7 @@ description: >
 repository_url: https://github.com/tiy-dc-ror-2016-feb/onboarding
 repository_shorthand: tiy-dc-ror-2016-feb/onboarding
 class_github_org: https://github.com/tiy-dc-ror-2016-feb
-baseurl: ""
+baseurl: "/ror-onboarding/"
 instructor_name: Russell Osborne
 instructor_email: russell@theironyard.com
 instructor_url: https://github.com/rposborne
