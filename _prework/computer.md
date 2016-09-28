@@ -75,9 +75,9 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_
   * `gem install pry`
   * Run `which ruby`. If you see a path starting with `/usr/bin/`, get a TA or instructor to help you.
 
-<!-- * Install nodejs
+* Install nodejs
   * In Terminal
-  * `brew install nodejs` -->
+  * `brew install nodejs`
 
 * Install git
   * In Terminal
@@ -90,10 +90,10 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_
   * Run it and follow the install steps.
   * Open Terminal and run `heroku login`.  Enter your Heroku credentials when asked.
 
-<!-- * Create an SSH key (__do not__ give it a password when it asks for one)
+* Create an SSH key (__do not__ give it a password when it asks for one)
   * `ssh-keygen`
   * Press enter at the first prompt to stick with the default file name.
-  * Press enter at the second prompt to give it no password. -->
+  * Press enter at the second prompt to give it no password.
 
 * Add the following applications to your Dock
   * Atom
