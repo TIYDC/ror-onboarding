@@ -46,7 +46,7 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_
   * Install and run it.
   * Click on the "Atom" option in your menu bar (all the way in the upper-left of your screen) and choose "Install Shell Commands."
 
-** Atom is not the best editor, but it has great defaults, if you are already using an editor stick with it, alternatives, are Sublime Text, Textmate, and MacVim **
+**Atom is not the best editor, but it has great defaults, if you are already using an editor stick with it, alternatives, are Sublime Text, SpaceMacs, and MacVim**
 
 #### Install Google Chrome
 
