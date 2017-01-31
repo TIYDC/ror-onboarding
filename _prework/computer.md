@@ -51,36 +51,45 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_
   * Download Chrome from [the Chrome download page](https://www.google.com/intl/en/chrome/browser/).
   * Install and run it.  This install will work a little differently from Atom, so if you get confused, [read more here](mac_installations.html).
 
+#### Install iTerm2
+
+The terminal is our text-based interface into the computer. It is much more powerful than graphical user interfaces (GUI's) generally and will be more efficient for us in the long run. MacOS comes with a terminal built in, but many people prefer a program called iTerm2.
+
+  1. Download iTerm2 from [the iTerm2 website](https://www.iterm2.com/downloads.html)
+  1. Unzip the downloaded file by double-clicking on it.
+  1. Open your Applications directory by clicking on the Finder and selecting it from the left sidebar.
+  1. Drag the unzipped iTerm application into the Applications folder.
+
 * Install XCode Command Line Tools
-  * Open up Terminal.  If you're not familiar with opening applications on your Mac, [read this page, especially the last section](mac_installations.html).
+  * Open up iTerm2.  If you're not familiar with opening applications on your Mac, [read this page, especially the last section](mac_installations.html).
   * Go to the [Apple Developer Downloads site](https://developer.apple.com/downloads/).
   * `xcode-select --install`
 
 * Install Homebrew
-  * Open up Terminal (or if you've still got it open, keep using it).
+  * Open up iTerm2 (or if you've still got it open, keep using it).
   * Run ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
   * Run `brew doctor`
 
 * Install rbenv & ruby-build
-  * Open up Terminal (or if you've still got it open, keep using it).
+  * Open up iTerm2 (or if you've still got it open, keep using it).
   * `brew install ruby-build rbenv`
   * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile`
 
 * Install ruby 2.4.0
-  * Close and reopen Terminal.
+  * Close and reopen iTerm2.
   * `rbenv install 2.4.0`
   * Go and get some coffee. That last one will take a while.
   * `rbenv global 2.4.0`
-  * Close and reopen Terminal.
+  * Close and reopen iTerm2.
   * `gem install pry`
   * Run `which ruby`. If you see a path starting with `/usr/bin/`, get a TA or instructor to help you.
 
 * Install nodejs
-  * In Terminal
+  * In iTerm2
   * `brew install nodejs`
 
 * Install git
-  * In Terminal
+  * In iTerm2
   * `brew install git`
   * `git config --global push.default simple`
   * `git config --global credential.helper osxkeychain`
@@ -98,4 +107,4 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_
 * Add the following applications to your Dock
   * Atom
   * Chrome
-  * Terminal
+  * iTerm2
