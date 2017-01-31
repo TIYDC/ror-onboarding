@@ -3,16 +3,16 @@ project_name: Backend Engineering
 class_logo: img/rails.png
 description: >
   The Iron Yard - Washington DC
-repository_url: https://github.com/tiy-dc-ror-2016-feb/onboarding
+repository_url: https://github.com/tiydc/ror-onboarding
 repository_shorthand: tiy-dc-ror-2016-feb/onboarding
-class_github_org: https://github.com/tiy-dc-ror-2016-jun
+class_github_org: https://github.com/tiy-dc-ror-2017-spring
 baseurl: "/ror-onboarding/"
 instructor_name: Russell Osborne
 instructor_email: russell@theironyard.com
 instructor_url: https://github.com/rposborne
-cd_name_informal: Su
-cd_name: Su Kim
-cd_email: su@theironyard.com
+cd_name_informal: Kayt
+cd_name: Kayt Hensley
+cd_email: kayt@theironyard.com
 prework_survey_1: http://goo.gl/forms/49LKcBv5tZ
 prework_survey_2: http://goo.gl/forms/ePAmcTj4jA
 google_analytics_uid: UA-73814182-1
