@@ -40,14 +40,16 @@ As soon as possible after receiving your Mac, run through the following steps.
 If you've done a lot of your own configuration, some of these steps may have to
 change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_email}}](mailto:{{ site.instructor_email }})
 
-* Install Atom
+#### Install Atom
+
   * Download Atom from [the Atom website](https://atom.io/).
   * Install and run it.
   * Click on the "Atom" option in your menu bar (all the way in the upper-left of your screen) and choose "Install Shell Commands."
 
 ** Atom is not the best editor, but it has great defaults, if you are already using an editor stick with it, alternatives, are Sublime Text, Textmate, and MacVim **
 
-* Install Google Chrome
+#### Install Google Chrome
+
   * Download Chrome from [the Chrome download page](https://www.google.com/intl/en/chrome/browser/).
   * Install and run it.  This install will work a little differently from Atom, so if you get confused, [read more here](mac_installations.html).
 
@@ -60,22 +62,26 @@ The terminal is our text-based interface into the computer. It is much more powe
   1. Open your Applications directory by clicking on the Finder and selecting it from the left sidebar.
   1. Drag the unzipped iTerm application into the Applications folder.
 
-* Install XCode Command Line Tools
+#### Install XCode Command Line Tools
+
   * Open up iTerm2.  If you're not familiar with opening applications on your Mac, [read this page, especially the last section](mac_installations.html).
   * Go to the [Apple Developer Downloads site](https://developer.apple.com/downloads/).
   * `xcode-select --install`
 
-* Install Homebrew
+#### Install Homebrew
+
   * Open up iTerm2 (or if you've still got it open, keep using it).
   * Run ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
   * Run `brew doctor`
 
-* Install rbenv & ruby-build
+#### Install rbenv & ruby-build
+
   * Open up iTerm2 (or if you've still got it open, keep using it).
   * `brew install ruby-build rbenv`
   * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile`
 
-* Install ruby 2.4.0
+#### Install ruby 2.4.0
+
   * Close and reopen iTerm2.
   * `rbenv install 2.4.0`
   * Go and get some coffee. That last one will take a while.
@@ -84,27 +90,35 @@ The terminal is our text-based interface into the computer. It is much more powe
   * `gem install pry`
   * Run `which ruby`. If you see a path starting with `/usr/bin/`, get a TA or instructor to help you.
 
-* Install nodejs
+#### Install nodejs
+
   * In iTerm2
   * `brew install nodejs`
 
-* Install git
+#### Install git
+
   * In iTerm2
   * `brew install git`
   * `git config --global push.default simple`
   * `git config --global credential.helper osxkeychain`
 
-* Install Heroku Toolbelt
+#### Install Heroku Toolbelt
+
   * Download the Toolbelt from [this page](https://toolbelt.heroku.com/).
   * Run it and follow the install steps.
   * Open Terminal and run `heroku login`.  Enter your Heroku credentials when asked.
 
-* Create an SSH key (__do not__ give it a password when it asks for one)
+#### Setup SSH key
+
+Create an SSH key (__do not__ give it a password when it asks for one)
+
   * `ssh-keygen`
   * Press enter at the first prompt to stick with the default file name.
   * Press enter at the second prompt to give it no password.
 
-* Add the following applications to your Dock
+#### Setup Dock
+Add the following applications to your Dock
+
   * Atom
   * Chrome
   * iTerm2
