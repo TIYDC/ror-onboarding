@@ -66,11 +66,11 @@ change.  If you run into ANY PROBLEMS, send me an e-mail at: [{{site.instructor_
   * `brew install ruby-build rbenv`
   * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile`
 
-* Install ruby 2.3.1
+* Install ruby 2.4.0
   * Close and reopen Terminal.
-  * `rbenv install 2.3.1`
+  * `rbenv install 2.4.0`
   * Go and get some coffee. That last one will take a while.
-  * `rbenv global 2.3.1`
+  * `rbenv global 2.4.0`
   * Close and reopen Terminal.
   * `gem install pry`
   * Run `which ruby`. If you see a path starting with `/usr/bin/`, get a TA or instructor to help you.
